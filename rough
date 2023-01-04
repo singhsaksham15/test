@@ -1,0 +1,100 @@
+   <!-- MDN CSS REFERENCE PR CSS KA SARA PROPERTY HAI -->
+ <!-- HEX COLOUR PICKER USE KRKE FORMATES OF COLOUR DEFINE KRLO -->
+<!-- HSL---HUE,SATURATION,LIGHTNESS -->
+<!-- RGB RED GREEN BLUE VALUE --> 
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+   <!-- form structure -->
+   
+    <b><fieldset>PERSONAL INFORMATION</fieldset> </b><fieldset name="pi">
+<form id="SAKSHAM">
+NAME:<input type="text" placeholder="enter your name"><br>
+FATHER'S NAME:<input type="text" placeholder="enter your father's name"><br>
+MOTHER'S NAME:<input type="text" placeholder="enter your mother's name"><br>D.O.B:<INPUT type="date"><BR>
+STREAM:
+<select name:"stream" id="stream1" placeholder="Select your stream"><option value="stream">select your stream</option>
+<option value="stream">BSC/BA</option>
+<option value="stream">BBA</option>
+<option value="stream">BCA</option>
+<option value="stream">B.TECH/B.ARCH</option>
+<option value="stream">INTERMEDIATE</option>
+
+</select><br>
+<input type="submit" id="submit">
+</form></fieldset>
+  
+------------------------------------------------------------------------------------------------------------------------------
+
+  <!-- <!-- for box type layout and navigation box -->---
+
+<div class="navbar"></div>
+
+ <div class="box1"></div><div class="box2"></div>
+
+
+ <style>
+        .navbar{
+                height: 30px;
+                background-color: black;
+                border-radius: 30px;
+        }
+
+        .navbar ul li a{
+                color: white;
+                text-decoration:none;
+        }
+                
+        
+        .navbar ul li{
+                display: inline-block;
+                margin-top: 9px;
+                margin-left: 4px;
+                margin-right: 4px;
+                margin-bottom: 9px;
+        }
+
+        .box1{
+                width: 50%;
+                height: 90vh;
+                background-color: red;
+                display: inline-block;
+                border-radius: 10px;
+        }
+        .box2{
+                width: 50%;
+                height: 90vh;
+                background-color: blue;
+                display: inline-block;
+                border-radius: 10px;
+        }
+        
+</style>
+
+<ul>
+        <li><a href="#"> HOME</a></li>
+        <li><a href="#">OPEN</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">INFO</a></li>
+        <li><a href="#">TOOLS</a></li>
+        <li><a href="#">SETTINGS</a></li>
+</ul>
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+<!-- flexbox in css -->
+float - property used to flow the element from left to right or vice vresa
+
+for alligning box in the centre---> justify contact attribute
+display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: aquamarine;
+        height: 500px;
+        align-items: center;
+        

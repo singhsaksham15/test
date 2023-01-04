@@ -1,0 +1,67 @@
+ul{
+        background-color: black;
+        color: aqua;
+        margin: 0;
+        padding: 0;
+        width: 355px;
+        border: 0px;
+}
+
+.hero{
+        height: 250px;
+        width: 335px;
+        background-color: chocolate;
+        margin: 14px;
+        padding: 13px;
+        border: 4px solid black; 
+
+}
+#golden{height: 100;width: 100;
+        background-image:url("gold.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-color: white;
+        border: 50px;
+        border-style: double;
+        border-color: brown;
+        border-radius: 170px;
+        padding: 50px;
+        margin: 10px;
+
+
+}
+p1{
+      color: purple;
+      text-align: center;
+
+      text-decoration: underline;
+}
+
+h1{
+        text-align: center ;
+        text-shadow: black;
+        text-decoration: underline;
+}
+
+        
+h2{
+        text-align: center ;
+        text-shadow: black;
+        text-decoration: underline;
+        padding: 50px;
+        border: 50px;
+        margin: 50px;
+        
+
+}
+
+fieldset.regi{
+        background-color:brown ;
+}
+
+fieldset.league{
+        background-color: gold;
+        border-radius: 150px;
+}
+
